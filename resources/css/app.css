@@ -13,3 +13,61 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
+
+:root {
+    --color0: #113F67;
+    --color1: #34699A;
+    --color2: #58A0C8;
+    --color3: #FDF5AA;
+    --textclear: white;
+}
+
+html,body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1 1 auto;
+}
+
+nav {
+    position: sticky;
+    background-color: var(--color0);
+    color: var(--textclear);
+    font-size: 24px;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav ul li:first-child a{
+    padding: 0;
+    height: 64px;
+    width: 64px;
+}
+nav ul li a:hover {
+    background-color: var(--color1);
+}
+
+footer {
+    background-color: var(--color0);
+    color: var(--textclear);
+    text-align: center;
+}
