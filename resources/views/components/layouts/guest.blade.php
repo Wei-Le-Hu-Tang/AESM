@@ -15,11 +15,11 @@
                 <li><a href="{{ route('home') }}">
                     <img src="{{ asset('img/logo.jpg') }}" alt="AESM">
                 </a></li>
-                <li><a href="#">Instalaciones</a></li>
-                <li><a href="#">Eventos</a></li>
-                <li><a href="#">Historia</a></li>
-                <li><a href="#">Galería</a></li>
-                <li><a href="#">Contáctanos</a></li>
+                <li><a href="instalaciones">Instalaciones</a></li>
+                <li><a href="eventos">Eventos</a></li>
+                <li><a href="historia">Historia</a></li>
+                <li><a href="galeria">Galería</a></li>
+                <li><a href="contactanos">Contáctanos</a></li>
             </ul>
             {{-- <div class="space-x-4">
                 <a href="{{ route('login') }}" class="hover:text-blue-600">Login</a>
