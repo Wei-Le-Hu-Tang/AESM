@@ -69,5 +69,22 @@ nav ul li a:hover {
 footer {
     background-color: var(--color0);
     color: var(--textclear);
+}
+footer h3 {
+    font-size: 24px;
+}
+footer span {
+    font-size: 18px;
+}
+footer svg {
+    margin: 3px;
+}
+footer div {
+    margin: 3px;
+}
+footer li {
+    margin: 2rem 0;
+}
+.copyright {
     text-align: center;
 }

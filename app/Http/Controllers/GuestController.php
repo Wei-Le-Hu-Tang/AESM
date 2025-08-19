@@ -30,9 +30,4 @@ class GuestController extends Controller
     {
         return view('guest.galeria');
     }
-
-    public function contactanos()
-    {
-        return view('guest.contactanos');
-    }
 }

@@ -9,7 +9,6 @@ Route::controller(GuestController::class)->group(function () {
     Route::get('/eventos', 'eventos')->name('eventos');
     Route::get('/historia', 'historia')->name('historia');
     Route::get('/galeria', 'galeria')->name('galeria');
-    Route::get('/contactanos', 'contactanos')->name('contactanos');
 });
 
 Route::middleware(['auth'])->group(function () {
